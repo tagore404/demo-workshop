@@ -1,13 +1,13 @@
-package com.example.demo;
+package com.example;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class DemoControllerTest {
+public class AppTest {
 
     @Test
-    public void testHello() {
-        DemoController controller = new DemoController();
-        assertEquals("Hello from Demo!", controller.hello());
+    public void testSayHello() {
+        App app = new App();
+        assertEquals("Hello Jenkins!", app.sayHello());
     }
 }
