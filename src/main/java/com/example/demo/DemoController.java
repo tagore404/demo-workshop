@@ -1,13 +1,7 @@
-package com.example.demo;
+package com.example;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-public class DemoController {
-
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello from Demo!";
+public class App {
+    public String sayHello() {
+        return "Hello Jenkins!";
     }
 }
